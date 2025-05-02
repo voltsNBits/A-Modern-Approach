@@ -1,0 +1,7 @@
+Keywords in c
+(a)for
+(e)while
+
+NOT a Keyword in C:
+(b)If 
+//I is capital;if is a Keyword

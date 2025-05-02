@@ -1,0 +1,24 @@
+The program:
+[
+    #include<stdio.h> 
+
+    int main(void){
+      printf("HELLO WORLD\n");
+    } 
+]
+gives a WARNING message if compiled using the command:
+   gcc -Wall -std=c89 -o 2.1 2.1.c
+but compiles succesfully if -std=c99
+
+to fix this ISSUE we can add the statement:
+ return 0; 
+
+i.e,
+[
+    #include<stdio.h> 
+
+    int main(void){
+      printf("HELLO WORLD\n");
+      return 0;   
+    } 
+]

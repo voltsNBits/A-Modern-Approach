@@ -1,0 +1,22 @@
+WARNING messages (for the command:gcc -Wall -o 2.4 2.4.c):
+[
+   2.4.c: In function 'main':
+   2.4.c:7:5: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+     printf("a=%d,b=%d,c=%d,d=%d\n",a,b,c,d);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   2.4.c:7:5: warning: 'b' is used uninitialized in this function [-Wuninitialized]
+   2.4.c:7:5: warning: 'c' is used uninitialized in this function [-Wuninitialized]
+   2.4.c:7:5: warning: 'd' is used uninitialized in this function [-Wuninitialized]
+   2.4.c:8:5: warning: 'h' is used uninitialized in this function [-Wuninitialized]
+     printf("e=%f,f=%f,g=%f,h=%f\n",e,f,g,h);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   2.4.c:8:5: warning: 'g' is used uninitialized in this function [-Wuninitialized]
+   2.4.c:8:5: warning: 'f' is used uninitialized in this function [-Wuninitialized]
+   2.4.c:8:5: warning: 'e' is used uninitialized in this function [-Wuninitialized]
+]
+
+OUTPUT:
+[
+    a=3551232,b=0,c=13184928,d=4200848
+    e=498306650016626150000000000000000.000000,f=0.000000,g=0.000000,h=0.000000
+]
