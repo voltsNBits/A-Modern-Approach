@@ -1,0 +1,24 @@
+a) "%d" is equivalent to " %d" 
+
+    since both the instruction skips all whitespace 
+    characters when looking for an integer output
+
+b) "%d-%d-%d" is not equivalent to "%d -%d -%d"
+
+    In the format "%d-%d-%d" each input integer should
+    compulsory be followed by a - sign 
+
+    But in the "%d -%d -%d" format any number of whitespace 
+    characters can be entered in between the integers and 
+    the - symbol
+    
+c) "%f" is not equivalent to "%f "
+
+    In the format "%f" the scanf function is automatically
+    terminated once the input is stored
+
+    But in the "%f "  format even after the input is stored the scanf
+    keeps on skipping whitespace character unless it comes across
+    a non white space character
+
+d) "%f,%f" is equivalent to "%f, %f"

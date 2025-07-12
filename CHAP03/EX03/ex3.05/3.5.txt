@@ -1,0 +1,11 @@
+When the input is given as 12.3 45.6 789
+
+The output would be:
+[
+  The numbers are:12.300000,45,0.600000
+]
+The scanf will first scan the input for a floating
+  point integer and therefore the input 12.3 is stored
+When scanf continues to find a suitable input for %d
+  format specifier it comes across 45.6 and thus only 45 
+  is stored And '.6' is put back for the next format scpecifer 

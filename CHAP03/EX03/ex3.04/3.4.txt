@@ -1,0 +1,14 @@
+When the input is given as 10.3 5 6
+
+The output would be:
+[
+  The numbers are:10,0.300000,5
+]
+The scanf will first look for an integer therefore
+  when it comes across '10.3' only the number 10 is stored 
+  but puts back ' . ' since it does not match the requirements 
+  for the format spectifier %d
+After 10 is stored, .3 was put back and is read next for 
+  the next format specifier %f and hence the number 0.3 is stored 
+And finally the single digit 5 is stored when scanf looks
+  for another integer usin %d, thus leaving the number 6 untouched
