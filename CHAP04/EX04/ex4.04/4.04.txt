@@ -1,0 +1,8 @@
+In the C99 standard,when dividing negative integers the 
+    final output will always be rounded off towards zero
+
+Therefore the outputs are:
+a) 1
+b)-1 
+c)-1 
+d) 1

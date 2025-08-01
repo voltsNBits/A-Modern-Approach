@@ -1,0 +1,20 @@
+In the C89 standard,while calaculating the modulous 
+    of negative integers the output(remainder) is
+    either assigned a value of the dividend or
+    the divisor based on the Compiler used
+
+By using the Command
+[
+    gcc -Wall -std=c89 -o 4.05 4.05.c
+]
+
+a) 3
+b)-3 or  2
+c) 3 or -2
+d)-3 or  2
+
+My compiler gives the following output:
+a) 3
+b)-3 
+c) 3 
+d)-3 

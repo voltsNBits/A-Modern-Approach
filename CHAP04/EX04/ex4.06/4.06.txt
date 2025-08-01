@@ -1,0 +1,9 @@
+In the C99 standard,when calculating for the modulous for
+    negative intergers the output(remainder) has the
+    same sign conventions as the dividend
+
+Therefore the outputs are ass follows:
+a) 3
+b)-3 
+c) 3 
+d)-3 

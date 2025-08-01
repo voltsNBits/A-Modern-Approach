@@ -1,0 +1,16 @@
+for the Command:
+   gcc -Wall -o 4.10 4.10.c
+
+The following warning is displayed:
+[
+    4.10.c: In function 'main':
+    4.10.c:20:6: warning: operation on 'j' may be undefined [-Wsequence-point]
+     j=(i=6)+(j=3);
+     ~^~~~~~~~~~~~
+]
+
+However the output is:
+a) 12 12
+b) 3 4
+c) 2 8
+d) 6 9

@@ -1,0 +1,6 @@
+For the C89 standard The output for expression 
+    "(-i)/j" may either be rounded up towards 0 or
+    away from 0 depending on the compiler or the system
+For my system both the expression yields the same output
+
+In C99 standard the output is always truncated towards 0

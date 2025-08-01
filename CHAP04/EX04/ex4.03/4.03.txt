@@ -1,0 +1,19 @@
+In C89 standard, when dividing negative integers 
+    the final output is either rounder off towards 
+    zero or away from zero depending on the compiler used
+
+By using the Command 
+[
+    gcc -Wall -std=c89 -o 4.03 4.03.c 
+]
+
+a) 1
+b)-1 or -2
+c)-1 or -2
+d) 1 or  2
+
+My compiler gives the following outputs:
+a) 1
+b)-1 
+c)-1 
+d) 1

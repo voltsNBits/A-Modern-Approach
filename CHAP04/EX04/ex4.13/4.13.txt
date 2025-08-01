@@ -1,0 +1,5 @@
+++i is equivalent to i+=1
+    ++i means i is incremented immeadiately and the 
+    incremented value is used or stored in that line itself
+Whereas i++ means the value of i before incrementing is used
+in that line but i is incremented for the next line

@@ -1,0 +1,13 @@
+for the Command:
+    gcc -Wall -o 4.15 4.15.c
+
+The following Warning message is displayed by the Compiler:
+[
+    4.15.c: In function 'main':
+    4.15.c:13:8: warning: statement with no effect [-Wunused-value]
+         i*j/i;
+         ~~~^~
+    4.15.c:16:6: warning: value computed is not used [-Wunused-value]
+         i%++j;
+         ~^~~~
+]
