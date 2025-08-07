@@ -1,0 +1,2 @@
+Yes,the statement is legal
+    but it will only be true when n=-9

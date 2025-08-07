@@ -1,0 +1,11 @@
+By using the command : gcc -Wbool-compare./ -std=c89 -o 5.06 5.06.c
+We get the following warning message:
+[
+    5.06.c:9:12: warning: comparison of constant '10' with boolean 
+        expression is always true [-Wbool-compare]
+            if(n>=1<=10)
+                   ^~
+]
+which says that the if condition will always be true for all 'n'
+ Therefore the following 'if' statement is legal,
+ however it doesn't behave as we expect

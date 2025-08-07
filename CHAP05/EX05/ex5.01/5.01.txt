@@ -1,0 +1,11 @@
+By using the command: gcc -Wparentheses -std=c89 -o 5.01 5.01.c
+We get the following warning messages:
+[
+    5.01.c: In function 'main':
+    5.01.c:12:21: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+     printf("%d\n",(k>i<j));   
+                    ~^~
+5.01.c:15:27: warning: suggest parentheses around comparison in operand of '==' [-Wparentheses]
+     printf("%d\n",(i<j)==j<k); 
+                          ~^~
+]
