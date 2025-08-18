@@ -1,0 +1,10 @@
+By using the command: gcc -Wall -std=c89 -o 6.03 6.03.c
+We get the following warning:
+[
+    6.03.c: In function 'main':
+    6.03.c:6:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+        for(i=5,j=i-1;i>0,j>0;--i,j=i-1)
+                         ^
+]
+witch says that, the expression 'i>0' is useless or redundant
+because of the expression 'j>0'

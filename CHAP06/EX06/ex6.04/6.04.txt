@@ -1,0 +1,7 @@
+The statement 
+
+c) for(i=0;i++<10;) 
+
+is not equivalent to either
+a) for(i=0;i<10;i++) or
+b) for(i=0;i<10;++i)

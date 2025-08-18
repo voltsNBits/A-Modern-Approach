@@ -1,0 +1,5 @@
+The statement 
+c) do{...} while (i<10);
+is not equivalentto the other two statements
+a) while(i<10)
+b) for(;i<10;)

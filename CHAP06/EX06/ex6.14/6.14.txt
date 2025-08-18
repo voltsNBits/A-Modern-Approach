@@ -1,0 +1,9 @@
+if(n%2==0);
+   printf("n is even\n");
+
+The error in the following program fragment is
+   the semicolon at the end of i statement
+
+The correct syntax for program would be:
+if(n%2==0)
+   printf("n is even\n");

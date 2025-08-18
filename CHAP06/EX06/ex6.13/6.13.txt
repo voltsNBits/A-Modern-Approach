@@ -1,0 +1,9 @@
+The for loop
+[
+    for(n=0;m>0;n++)
+       m/=2;
+]
+can be made into a body less loop as
+[
+    for(n=0;m>0;n++,m/=2) ;
+]
