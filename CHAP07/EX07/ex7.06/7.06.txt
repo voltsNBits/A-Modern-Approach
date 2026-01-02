@@ -1,0 +1,4 @@
+a) Days in a month  = 31    = char(1 byte)
+b) Days in a year   = 365   = short(2 bytes)
+c) Minutes in a day = 1440  = short(2 bytes)
+d) Seconds in a day = 86400 = int(4 bytes)

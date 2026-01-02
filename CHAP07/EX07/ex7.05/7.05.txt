@@ -1,0 +1,3 @@
+b) 0b1000001 is not a legal way to write the number 
+   since C does not allow numbers to be represented in binary
+   (except in compilers like GCC and Clang)

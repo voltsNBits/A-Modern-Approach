@@ -1,0 +1,9 @@
+This program will not give us a desired result
+if the value of f exceeds the MAX size of type int
+in a system
+
+EXAMPLE: For a system which has int size of 32 bits
+[
+    Enter a fractional number:2147483648.645
+    Fractinal part:4294967296.000000
+]

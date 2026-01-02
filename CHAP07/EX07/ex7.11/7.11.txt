@@ -1,0 +1,10 @@
+int i; float f; double d;
+The Expression
+[
+    i*f/d 
+]
+can be re-written as 
+[
+    (double) ( (double)( (float)i*f) /d)
+]
+giving us a result of type double

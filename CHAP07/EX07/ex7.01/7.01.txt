@@ -1,0 +1,5 @@
+The decimal equivalent of the given numbers are:
+
+a) 077o   = 63d
+b) 0x77h  = 119d
+c) 0xABCh = 2748d

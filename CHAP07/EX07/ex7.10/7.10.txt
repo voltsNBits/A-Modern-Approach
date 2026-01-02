@@ -1,0 +1,10 @@
+int i;long j;unsigned int k;
+The Expression
+[
+    i+(int)j*k 
+]
+can be re-written as 
+[
+    (unsigned int)i + ( (unsigned int)( (int)j ) * k )
+]
+giving us a result of type unsigned int

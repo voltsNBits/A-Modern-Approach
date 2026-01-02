@@ -1,0 +1,10 @@
+int i,j;
+The Expression
+[
+    i/j+'a' 
+]
+can be re-written as 
+[
+    (int)((i/j) + (int)'a')
+]
+giving us a result of type int

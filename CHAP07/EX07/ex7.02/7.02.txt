@@ -1,0 +1,5 @@
+Illegal constants in C:
+
+c) since 0790 is a octal represantaton format 
+    and 9 doesnt exist in octal number system
+d) since there is an underscore in 100_000 

@@ -1,0 +1,10 @@
+int i; float f; double d;
+The Expression
+[
+    d = i+f;
+]
+can be re-written as 
+[
+    d = (double) ((float)i +f);
+]
+giving us a result of type double

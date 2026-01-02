@@ -1,0 +1,2 @@
+b) short float
+   is not a legal type in C
