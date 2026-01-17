@@ -1,0 +1,2 @@
+to use digits(in character form)
+   [num-'0']

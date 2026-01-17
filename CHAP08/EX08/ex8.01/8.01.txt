@@ -1,0 +1,11 @@
+using
+[
+    size(a)/sizeof(t) 
+]
+instead of 
+[
+    size(a)/size(a[0]);
+]
+will give us the same result 
+But it may be difficult to modify the programm
+if ever the type of array a[] has to be changed
